@@ -1,0 +1,31 @@
+.navbar{
+    // position:fixed;
+    // top:0;
+    height:100px;
+    padding:20px;
+    width:100%;
+    
+    .wrapper{
+        display:flex;
+        align-items: center;
+        justify-content: flex-end;
+        .right-navbar{
+            justify-content: flex-end;
+        }
+        a{
+            list-style-type: none;
+            color:white;
+            font-weight: bold;
+            margin: 20px;   
+        }
+
+}
+}
+
+/* on tablet */
+@media screen and (max-width:600px){
+    .right-navbar {
+        display:None;
+    }
+ 
+ }
