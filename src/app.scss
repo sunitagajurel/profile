@@ -121,9 +121,13 @@ h1{
     font-size: 2.5rem;
 }
 
+h2{
+    margin-bottom: 10px;
+}
+
 section {
-    margin-top: 8rem;
-    height:100vh;
+    // margin-top: 8rem;
+    // height:100vh;
     align-items:centre;
 }
 
@@ -187,11 +191,12 @@ img{
 /* media query for tablets I(medium devices) */
 @media screen and (max-width: 1024px){
     .container {
+        margin-top:20px;
         width: var(--container-width-md);
     }
 
     section {
-        margin-top:6rem;
+        // margin-top:1rem;
     }
 }
 
@@ -204,10 +209,10 @@ img{
 
     section {
         // margin-top:6rem;
-        height: 185vh;
+        height: 200vh;
     }
 
-    // section  >h2{
-    //     margin-bottom:2rem;
-    // }
+    section  >h2{
+        margin-bottom:2rem;
+    }
 }

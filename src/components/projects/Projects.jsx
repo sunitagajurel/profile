@@ -35,7 +35,7 @@ const Projects = () => {
       ]  
   return (
     <div className = "container" id = "projects">
-    <h2> My Recent Projects</h2>
+    <h2> MY RECENT PROJECTS</h2>
       <div className = "portfolio__container"> 
       {
         data.map(({id,image,title,github,description}) => {

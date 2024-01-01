@@ -10,7 +10,7 @@ import TimeLine from './components/projects/timeline.jsx'
 
 function App() {
   return (
-  <div className= "main">
+    <>
     <section>
      <Navbar/> 
      <Intro/> 
@@ -22,7 +22,8 @@ function App() {
     <section> 
       <Contacts/>
     </section>
-  </div> 
+    </>
+    
   )
     
   
