@@ -5,7 +5,7 @@ const Projects = () => {
 
     const data =[{
         id:1,
-        image: "src/assets/kafka.png",
+        image: "https://github.com/sunitagajurel/profile/blob/main/src/assets/kafka.png",
         title:"Performance comparision of Messaging services",
         github: "",
         description: ""
