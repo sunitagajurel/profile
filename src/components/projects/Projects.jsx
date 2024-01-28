@@ -5,28 +5,28 @@ const Projects = () => {
 
     const data =[{
         id:1,
-        image: "src/assets/kafka.png",
+        image: "src/assets/images/kafka.png",
         title:"Performance comparision of Messaging services",
         github: "",
         description: ""
       },
       {
       id:2,
-        image: "src/assets/library.jpg",
+        image: "src/assets/images/library.jpg",
         title:"Library Management System",
         github: "",
         description: ""
       },
       {
           id:3,
-          image: "src/assets/office.jpg",
+          image: "src/assets/images/office.jpg",
           title:"Employee Monitoring and Attendance System",
           github: "",
           description: ""
         },
         {
         id:4,
-          image:"src/assets/house_price.jpg",
+          image:"src/assets/images/house_price.jpg",
           title:"House Price Prediction",
           github: "",
           description:"",
