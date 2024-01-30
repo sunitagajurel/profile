@@ -26,7 +26,7 @@ const Projects = () => {
         },
         {
         id:4,
-          image:"https://github.com/sunitagajurel/profile/blob/main/src/assets/images/house_price.JPG?raw=true",
+          image:"https://github.com/sunitagajurel/profile/blob/main/src/assets/images/house_price.jpg?raw=true",
           title:"House Price Prediction",
           github: "",
           description:"",
