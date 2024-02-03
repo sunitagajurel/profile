@@ -34,8 +34,9 @@ const Projects = () => {
 
       ]  
   return (
-    <div className = "container" id = "projects">
+    <section id = "projects">
     <h2> MY RECENT PROJECTS</h2>
+    <div className = "container"> 
       <div className = "portfolio__container"> 
       {
         data.map(({id,image,title,github,description}) => {
@@ -59,8 +60,9 @@ const Projects = () => {
         })
       }
       </div>
+      </div>
           
-    </div>
+    </section>
    
   )
 }

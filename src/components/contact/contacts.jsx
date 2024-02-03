@@ -20,8 +20,9 @@ const Contacts = () => {
 
 
   return (
+    <section>
+    <h2> Connect With Me </h2> 
     <div className= "container" id = "contact">
-      <h2> Connect With Me </h2>
       <div className = "contact__container">
         <div className ="contact__options">
           <article className ="contact__option">
@@ -31,18 +32,15 @@ const Contacts = () => {
             <a href ="mailto:sunita.gajurel10@gmail.com" target = "_blank "> send a mail</a>
           </article>
 
-    
             
             {/* <h4> Linkdein </h4> */}
             <a href ="https://www.linkedin.com/in/sunitagajurel/" target = "_blank "> <BsLinkedin className = "contact__option-icon"/>  </a>
-          
-
-         
             
             <a href ="https://github.com/sunitagajurel"  target = "_blank "><BsGithub className = "contact__option-icon"/>  </a> 
      
           </div>
-          <div className ="contact_form"> 
+      
+      <div className ="contact_form"> 
             <form ref={form} onSubmit={sendEmail} > 
             <input type = "text" name ='name' placeholder ="Your Full Name" required /> 
             <input type ="email" name= "email" placeholder ='Your Email' required /> 
@@ -50,10 +48,9 @@ const Contacts = () => {
             <button type ="submit" className ="btn btn-primary">Send Message </button>
             </form>
           </div>
-          
-
-      </div>
     </div>
+    </div>
+  </section>
     
   )
 }

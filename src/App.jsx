@@ -7,6 +7,7 @@ import Intro from './components/intro/Intro.jsx'
 import Projects from './components/projects/Projects.jsx'
 import Skills from './components/skills/skills.jsx'
 import TimeLine from './components/projects/timeline.jsx'
+import Slider from './components/sliders/Slider.jsx'
 
 function App() {
   return (
@@ -14,14 +15,15 @@ function App() {
     <section>
      <Navbar/> 
      <Intro/> 
-    </section> 
-    <section> 
-        <TimeLine/>
-    </section>
-    <section> <Projects/> </section>
-    <section> 
-      <Contacts/>
-    </section>
+     </section>
+   
+    <TimeLine/>
+   
+    <Projects/>
+   
+    <Contacts/>
+
+
     </>
     
   )

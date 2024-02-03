@@ -1,0 +1,41 @@
+
+.images{
+    position: realtive;
+}
+
+.slider_container{
+    display:flex;
+    flex-direction: row;
+    /* position: relative;    */
+}
+
+/* .dots-container{
+    position:absolute;
+    bottom: 10%;
+    left:50%;
+    z-index:1;
+} */
+
+.leftArrow{
+    position:absolute;
+    top:50%;
+    left:20px;
+    z-index: 1;
+    cursor:pointer;
+}
+
+.slider_image{
+    height:300px;
+    width:300px;
+    object-fit: contain;
+    /* position:relative; */
+}
+.dots {
+    height:20px; 
+    width:20px;
+    background-color: blueviolet;
+    border-radius:10%
+}
+.active{
+    background-color: green;
+}

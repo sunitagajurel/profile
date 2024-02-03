@@ -4,10 +4,9 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const timeline = () => {
   return (
-    <div className = "container" style={{"margin-top":10}}>  
-    <div> 
-    <h2> MY TECH JOURNEY</h2>
-    </div>
+    <section  style={{"margin-top":10}}> 
+     <h2> MY TECH JOURNEY</h2> 
+    <div className = "container"> 
     <VerticalTimeline>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -81,6 +80,7 @@ const timeline = () => {
   </VerticalTimelineElement>
   </VerticalTimeline>
   </div>
+  </section>
   )
 }
 

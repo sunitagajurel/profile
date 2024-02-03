@@ -1,25 +1,18 @@
-.skills__container{
-    margin-top:20px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap:1%;
-    flex-wrap: wrap;
-    margin-left:20%;
-    margin-right:20%;
+
+
+
+
+
+
+.title{
+    display: flex;
 }
 
-.skills{
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
-    background-color:#4db5ff;;
-    height: max-content;
-    width:max-content;
-    border-radius: 5%;
-    font-weight:bold;
-    color:antiquewhite;
-    font-size: medium;
-    margin-top:10px;
-
-}
+// @media screen and (max-width:600px){
+//     .container {
+//         margin-top: 0;
+//         margin-bottom: 0;
+//         flex-direction: column;
+//     }
+ 
+//  }
